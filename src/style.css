@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group.half {
+  width: 48%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.success {
+  color: green;
+}
+
+.output {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.checkmark {
+  float: right;
+  color: green;
+  font-weight: bold;
+}
+
+input.highlight-error {
+  border: 2px solid red;
+}
+
+.toggle {
+  float: right;
+  font-size: 0.9rem;
+  color: blue;
+  cursor: pointer;
+  margin-top: 0.2rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: royalblue;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+button:disabled {
+  background-color: #ccc !important;
+  color: #666;
+  cursor: not-allowed;
+  border: none;
+}
